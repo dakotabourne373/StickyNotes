@@ -27,34 +27,34 @@ class Note extends Component {
         this.updatePosition(nextProps);
     }
 
-    onDragStart(e) {
+    onDragStart = (e) => {
         const { index } = this.props;
         e.dataTransfer.setData("application/x-note", index);
     }
 
     // Get random position
-    randomBetween(min, max) {
+    randomBetween = (min, max) => {
         return (min + Math.ceil(Math.random() * max));
     }
 
-    edit() {
+    edit = () => {
         this.setState({ editing: true });
     }
 
-    save() {
+    save = () => {
         const { index } = this.props;
         this.props.onChange(this.newText.value, index);
         this.setState({ editing: false });
     }
 
     // Remove note
-    remove() {
+    remove = () => {
         const { index } = this.props;
         this.props.onRemove(index);
     }
 
     // Render note body
-    renderNoteBody(content, save) {
+    renderNoteBody = (content, save) => {
         return (
             <div draggable="true" onDragStart={(e) => this.onDragStart(e)} onDoubleClick={() => this.edit()} className="note" style={this.style}>
                 <article>
@@ -75,13 +75,13 @@ class Note extends Component {
     }
 
     // Render note preview
-    renderDisplay() {
+    renderDisplay = () => {
         const { children } = this.props;
         return this.renderNoteBody(children);
     }
 
     // Render note edit mode
-    renderForm() {
+    renderForm = () => {
         const { children } = this.props;
         const content = (
             <div>

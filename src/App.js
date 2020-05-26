@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import UserNotes from "./UserNotes";
+import UserNotes from "./components/UserNotes";
 import "./style.css"
 
 export default class App extends Component {

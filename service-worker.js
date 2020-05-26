@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/StickyNotes/precache-manifest.350ada26fcc84558f8e376dff16a9f20.js"
+  "/StickyNotes/precache-manifest.973440671a9fa15531b814d460f012ac.js"
 );
 
 self.addEventListener('message', (event) => {

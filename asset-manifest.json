@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/StickyNotes/static/css/main.fe23597e.chunk.css",
-    "main.js": "/StickyNotes/static/js/main.fcccc69b.chunk.js",
-    "main.js.map": "/StickyNotes/static/js/main.fcccc69b.chunk.js.map",
+    "main.js": "/StickyNotes/static/js/main.6e9382fe.chunk.js",
+    "main.js.map": "/StickyNotes/static/js/main.6e9382fe.chunk.js.map",
     "runtime-main.js": "/StickyNotes/static/js/runtime-main.aea35c7c.js",
     "runtime-main.js.map": "/StickyNotes/static/js/runtime-main.aea35c7c.js.map",
-    "static/js/2.2847d595.chunk.js": "/StickyNotes/static/js/2.2847d595.chunk.js",
-    "static/js/2.2847d595.chunk.js.map": "/StickyNotes/static/js/2.2847d595.chunk.js.map",
+    "static/js/2.104a25c3.chunk.js": "/StickyNotes/static/js/2.104a25c3.chunk.js",
+    "static/js/2.104a25c3.chunk.js.map": "/StickyNotes/static/js/2.104a25c3.chunk.js.map",
     "index.html": "/StickyNotes/index.html",
-    "precache-manifest.350ada26fcc84558f8e376dff16a9f20.js": "/StickyNotes/precache-manifest.350ada26fcc84558f8e376dff16a9f20.js",
+    "precache-manifest.973440671a9fa15531b814d460f012ac.js": "/StickyNotes/precache-manifest.973440671a9fa15531b814d460f012ac.js",
     "service-worker.js": "/StickyNotes/service-worker.js",
     "static/css/main.fe23597e.chunk.css.map": "/StickyNotes/static/css/main.fe23597e.chunk.css.map",
-    "static/js/2.2847d595.chunk.js.LICENSE.txt": "/StickyNotes/static/js/2.2847d595.chunk.js.LICENSE.txt"
+    "static/js/2.104a25c3.chunk.js.LICENSE.txt": "/StickyNotes/static/js/2.104a25c3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aea35c7c.js",
-    "static/js/2.2847d595.chunk.js",
+    "static/js/2.104a25c3.chunk.js",
     "static/css/main.fe23597e.chunk.css",
-    "static/js/main.fcccc69b.chunk.js"
+    "static/js/main.6e9382fe.chunk.js"
   ]
 }
